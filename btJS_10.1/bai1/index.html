@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <form name="form_diem" action="" method="post">
+        <label for="">Nhập vào tên học sinh :</label>
+        <input type="text" name="text_name" value="">
+        <br>
+        <label for="">Nhập vào điểm :</label>
+        <input type="text" name="text_score" value="">
+        <br>
+        <input type="button" name="btn_grade" onclick="grade(text_name.value,text_score.value)" value="Kiểm tra">
+    </form>
+    <div id="kq"></div>
+</body>
+</html>
